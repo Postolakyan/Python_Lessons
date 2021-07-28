@@ -20,7 +20,7 @@ elif  len(word)%2==0:
 	print("The number of letters in a word is not odd")
  
 	
-elif  type(word)!=type("string"):
+elif  type(word)!=type(str):
 	print("The imported word is not a string")
 else:
     stringConvert(word)
